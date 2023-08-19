@@ -5,5 +5,5 @@ public abstract class Produto {
     float valor;
     int codigo;
 
-    public abstract float calcularDesconto(float valor);
+    public abstract float calcularImposto(float valor);
 }
