@@ -1,9 +1,9 @@
 package domain;
 
 public class Comida extends Produto {
-    float peso;
-    boolean vegano;
-    String ingredientes;
+    private float peso;
+    private boolean vegano;
+    private String ingredientes;
 
     public Comida(String nome, float valor, int codigo) {
         super(nome, valor, codigo);

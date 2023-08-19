@@ -2,9 +2,9 @@ package domain;
 
 public class Bebida extends Produto {
 
-    boolean gelada;
-    float tamanho;
-    String marca;
+    private boolean gelada;
+    private float tamanho;
+    private String marca;
 
     public Bebida(String nome, float valor, int codigo) {
         super(nome, valor, codigo);
