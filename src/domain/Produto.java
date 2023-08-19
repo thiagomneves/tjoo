@@ -1,9 +1,9 @@
 package domain;
 
 public abstract class Produto {
-    String nome;
-    float valor;
-    int codigo;
+    protected String nome;
+    protected float valor;
+    protected int codigo;
 
     public Produto(String nome, float valor, int codigo) {
         this.nome = nome;
