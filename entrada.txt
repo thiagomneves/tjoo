@@ -17,7 +17,7 @@ P;Pedido Especial;2023-08-22T15:15:00;false
 S;Ana Souza;654.321.987-12;ana@outlook.com
 Refrigerante;3.5;110;false;0.33;Pepsi;B
 Bolo de Chocolate;18.0;111;false;1.0;Bolo fofinho de chocolate;S
-Salada de Frutas;7.0;112;false;1.5;true;Salada fresca de frutas variadas
+Salada de Frutas;7.0;112;false;1.5;Salada fresca de frutas variadas;S
 P;Pedido de Almoço;2023-08-23T12:00:00;true
 S;Fernanda Almeida;890.765.432-01;fernanda@gmail.com
 Sorvete;4.0;113;false;0.25;Nestlé;B

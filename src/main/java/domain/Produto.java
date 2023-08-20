@@ -1,7 +1,9 @@
 package domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import exceptions.ValorNegativoException;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public abstract class Produto {
     protected String nome;
     protected float valor;

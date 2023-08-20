@@ -1,5 +1,8 @@
 package domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Solicitante {
     private String nome;
     private String cpf;

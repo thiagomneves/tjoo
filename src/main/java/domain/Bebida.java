@@ -1,9 +1,10 @@
 package domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import exceptions.ValorNegativoException;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Bebida extends Produto {
-
     private boolean gelada;
     private float tamanho;
     private String marca;

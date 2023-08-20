@@ -1,7 +1,9 @@
 package domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import exceptions.ValorNegativoException;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Sobremesa extends Produto {
     private float quantidade;
     private boolean doce;

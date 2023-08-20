@@ -1,9 +1,7 @@
-import java.io.InputStream;
 import java.util.List;
-import java.util.Scanner;
-
 import domain.Pedido;
 import util.LeitorArquivoPedido;
+import static util.GravadorArquivoPedido.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -14,8 +12,10 @@ public class Main {
         LeitorArquivoPedido leitor = new LeitorArquivoPedido();
         List<Pedido> pedidos = leitor.lerPedidos(arquivoEntrada);
 
-        for (Pedido pedido : pedidos) {
-            System.out.println(pedido);
-        }
+//        for (Pedido pedido : pedidos) {
+//            System.out.println(pedido);
+//        }
+
+        escreverListaParaJSON(pedidos, "saida.json");
     }
 }

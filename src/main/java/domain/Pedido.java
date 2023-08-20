@@ -1,6 +1,9 @@
 package domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import exceptions.ValorNegativoException;
+import util.LocalDateTimeSerializer;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -8,8 +11,11 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Pedido {
     private String descricao;
+
+    @JsonSerialize(using = LocalDateTimeSerializer.class)
     private LocalDateTime data;
     private boolean web;
 
@@ -42,6 +48,46 @@ public class Pedido {
                 ", listaProdutos=" + listaProdutos +
                 ", solicitantes=" + solicitantes +
                 '}';
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+
+    public LocalDateTime getData() {
+        return data;
+    }
+
+    public void setData(LocalDateTime data) {
+        this.data = data;
+    }
+
+    public boolean isWeb() {
+        return web;
+    }
+
+    public void setWeb(boolean web) {
+        this.web = web;
+    }
+
+    public List<Produto> getListaProdutos() {
+        return listaProdutos;
+    }
+
+    public void setListaProdutos(List<Produto> listaProdutos) {
+        this.listaProdutos = listaProdutos;
+    }
+
+    public Set<Solicitante> getSolicitantes() {
+        return solicitantes;
+    }
+
+    public void setSolicitantes(Set<Solicitante> solicitantes) {
+        this.solicitantes = solicitantes;
     }
 
     public void adicionarProduto(Produto produto) {
