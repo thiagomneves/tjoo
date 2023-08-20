@@ -1,20 +1,27 @@
 package domain;
 
+import exceptions.ValorNegativoException;
+
 public class Sobremesa extends Produto {
     private float quantidade;
     private boolean doce;
     private String informacoes;
 
-    public Sobremesa(String nome, float valor, int codigo) {
+    public Sobremesa(String nome, float valor, int codigo) throws ValorNegativoException {
         super(nome, valor, codigo);
     }
 
-    public float getQuantidade() {
-        return quantidade;
+    public Sobremesa(String nome, float valor, int codigo, float quantidade, boolean doce) throws ValorNegativoException {
+        super(nome, valor, codigo);
+        this.quantidade = quantidade;
+        this.doce = doce;
     }
 
-    public void setQuantidade(float quantidade) {
+    public Sobremesa(String nome, float valor, int codigo, float quantidade, boolean doce, String informacoes) throws ValorNegativoException {
+        super(nome, valor, codigo);
         this.quantidade = quantidade;
+        this.doce = doce;
+        this.informacoes = informacoes;
     }
 
     @Override
@@ -27,6 +34,14 @@ public class Sobremesa extends Produto {
                 ", valor=" + valor +
                 ", codigo=" + codigo +
                 '}';
+    }
+
+    public float getQuantidade() {
+        return quantidade;
+    }
+
+    public void setQuantidade(float quantidade) {
+        this.quantidade = quantidade;
     }
 
     public boolean isDoce() {
@@ -42,13 +57,6 @@ public class Sobremesa extends Produto {
     }
 
     public void setInformacoes(String informacoes) {
-        this.informacoes = informacoes;
-    }
-
-    public Sobremesa(String nome, float valor, int codigo, float quantidade, boolean doce, String informacoes) {
-        super(nome, valor, codigo);
-        this.quantidade = quantidade;
-        this.doce = doce;
         this.informacoes = informacoes;
     }
 

@@ -1,4 +1,7 @@
 package exceptions;
 
-public class ValorNegativoException {
+public class ValorNegativoException extends RuntimeException {
+    public ValorNegativoException(String message) {
+        super(message);
+    }
 }

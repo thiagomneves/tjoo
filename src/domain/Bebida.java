@@ -1,16 +1,18 @@
 package domain;
 
+import exceptions.ValorNegativoException;
+
 public class Bebida extends Produto {
 
     private boolean gelada;
     private float tamanho;
     private String marca;
 
-    public Bebida(String nome, float valor, int codigo) {
+    public Bebida(String nome, float valor, int codigo) throws ValorNegativoException {
         super(nome, valor, codigo);
     }
 
-    public Bebida(String nome, float valor, int codigo, boolean gelada, float tamanho, String marca) {
+    public Bebida(String nome, float valor, int codigo, boolean gelada, float tamanho, String marca) throws ValorNegativoException {
         super(nome, valor, codigo);
         this.gelada = gelada;
         this.tamanho = tamanho;

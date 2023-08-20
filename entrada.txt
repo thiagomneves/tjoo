@@ -1,17 +1,78 @@
-Pedido 1;2023-08-01T10:30:00;true;B:Refrigerante;3.5;100;true;500;Coxinha;4.5;101;200;true;Frango assado;10.0;102;S:Brownie;5.0;103;2;true;Bolacha recheada;2.0;104;300
-Pedido 2;2023-08-02T15:45:00;false;C:Salada;8.0;105;300;true;Hamburguer;12.0;106;350;false;Pizza;20.0;107;400;true;Suco;4.0;108;400
-Pedido 3;2023-08-03T12:00:00;true;B:Água;1.0;109;false;Coca-Cola;4.0;110;200;true;Pão de queijo;3.0;111;100
-Pedido 4;2023-08-04T18:20:00;false;S:Cheesecake;6.0;112;1;true;Bolo de chocolate;7.0;113;2;false;Sorvete;3.0;114;3
-Pedido 5;2023-08-05T09:15:00;true;B:Suco de laranja;3.0;115;300;false;Refrigerante;2.5;116;400;true;Pão;1.0;117;200
-Pedido 6;2023-08-06T14:30:00;false;C:Arroz com feijão;6.0;118;200;true;Churrasco;15.0;119;300;false;Salada de frutas;4.0;120;100
-Pedido 7;2023-08-07T11:10:00;true;B:Cerveja;4.0;121;100;false;Água;0.5;122;200;true;Chips;2.0;123;300
-Pedido 8;2023-08-08T17:00:00;false;S:Torta de maçã;7.0;124;1;true;Bolo de morango;5.0;125;2;false;Sundae;4.0;126;3
-Pedido 9;2023-08-09T08:45:00;true;B:Água de coco;2.5;127;false;Refrigerante;3.0;128;200;true;Biscoito;1.0;129;300
-Pedido 10;2023-08-10T13:20:00;false;C:Feijoada;10.0;130;300;true;Arroz;2.0;131;400;false;Farofa;1.5;132;500
-Pedido 11;2023-08-11T16:30:00;true;B:Suco de abacaxi;3.5;133;200;false;Refrigerante;2.0;134;100;true;Sanduíche;6.0;135;300
-Pedido 12;2023-08-12T10:00:00;false;S:Cheesecake de morango;6.5;136;1;true;Bolo de cenoura;4.5;137;2;false;Sorvete de creme;3.5;138;3
-Pedido 13;2023-08-13T14:45:00;true;B:Chá;2.0;139;false;Água;0.5;140;300;true;Cookies;2.5;141;200
-Pedido 14;2023-08-14T12:30:00;false;C:Lasanha;8.0;142;200;true;Salada de folhas;4.0;143;100;false;Pizza de calabresa;18.0;144;300
-Pedido 15;2023-08-15T19:15:00;true;B:Refrigerante;3.0;145;200;false;Água;1.0;146;300;true;Batata frita;3.5;147;400
-Pedido 16;2023-08-16T09:50:00;false;S:Torta de limão;5.0;148;1;true;Bolo de coco;4.0;149;2;false;Sorvete de chocolate;3.5;150;3
-Pedido 17;2023-08-17T15:00:00;true;B:Água;1.0;151;false;Coca-Cola;3.5;152;200;true;Salgado;2.0;153;100
+P;Pedido de Aniversário;2023-08-19T10:30:00;true
+S;João da Silva;123.456.789-01;joao@gmail.com
+Cerveja;5.0;101;true;0.33;Skol;B
+Sobremesa de Chocolate;8.5;102;false;2.0;Deliciosa sobremesa de chocolate;S
+Hamburguer;15.0;103;250.0;false;Pão, carne, alface, tomate, queijo;C
+P;Pedido Corporativo;2023-08-20T14:45:00;false
+S;Maria Santos;987.654.321-09;maria@yahoo.com
+Refrigerante;3.0;104;false;0.5;Coca-Cola;B
+Torta de Morango;12.0;105;false;1.5;Torta recheada com morangos frescos;S
+Pizza;20.0;106;400.0;false;Massa, molho de tomate, queijo, presunto, azeitonas;C
+P;Pedido de Escritório;2023-08-21T11:00:00;true
+S;José Oliveira;789.012.345-67;jose@outlook.com
+Água Mineral;2.0;107;false;0.5;Crystal;B
+Mousse de Limão;6.5;108;false;1.0;Mousse refrescante com sabor de limão;S
+Sanduíche Natural;10.0;109;200.0;true;Pão integral, frango, alface, cenoura, maionese;C
+P;Pedido Especial;2023-08-22T15:15:00;false
+S;Ana Souza;654.321.987-12;ana@outlook.com
+Refrigerante;3.5;110;false;0.33;Pepsi;B
+Bolo de Chocolate;18.0;111;false;1.0;Bolo fofinho de chocolate;S
+Salada de Frutas;7.0;112;false;1.5;true;Salada fresca de frutas variadas
+P;Pedido de Almoço;2023-08-23T12:00:00;true
+S;Fernanda Almeida;890.765.432-01;fernanda@gmail.com
+Sorvete;4.0;113;false;0.25;Nestlé;B
+Lasanha à Bolonhesa;25.0;114;1.0;false;Lasanha com carne moída e molho de tomate;C
+Café;2.5;115;true;0.2;Café do Brasil;B
+P;Pedido de Lanche;2023-08-24T17:30:00;false
+S;Ricardo Carvalho;234.567.890-45;ricardo@yahoo.com
+Suco de Laranja;3.0;116;false;0.3;Natural;B
+Sanduíche de Frango;7.5;117;0.3;true;Frango grelhado, alface, maionese;C
+Sobremesa;8.0;118;false;1.5;Pudim de Leite;S
+P;Pedido de Jantar;2023-08-25T20:00:00;true
+S;Juliana Lima;345.678.901-23;juliana@gmail.com
+Vinho Tinto;12.0;119;true;0.75;Vinho do Porto;B
+Sobremesa;5.5;120;false;1.0;Sorvete de Baunilha;S
+Massa Carbonara;19.0;121;0.4;false;Massa, bacon, queijo, ovo;C
+P;Pedido de Café da Manhã;2023-08-26T08:00:00;false
+S;André Santos;456.789.012-34;andre@outlook.com
+Café;1.5;122;true;0.2;Pilao;B
+P;Pedido de Almoço;2023-08-27T12:30:00;true
+S;Mariana Fernandes;567.890.123-45;mariana@gmail.com
+Cerveja;5.5;123;true;0.33;Heineken;B
+Sobremesa de Morango;7.0;124;false;1.5;Sobremesa fresca de morango;S
+Hamburguer;14.5;125;200.0;false;Pão, carne, alface, tomate, queijo;C
+P;Pedido de Escritório;2023-08-28T11:15:00;false
+S;Rafaela Oliveira;678.901.234-56;rafaela@yahoo.com
+Refrigerante;2.5;126;false;0.5;Guaraná Antártica;B
+Torta de Limão;10.0;127;false;1.0;Torta refrescante de limão;S
+Pizza;18.0;128;350.0;false;Massa, molho de tomate, queijo, presunto, azeitonas;C
+P;Pedido de Lanche;2023-08-29T15:00:00;true
+S;Carlos Souza;789.012.345-67;carlos@outlook.com
+Suco de Abacaxi;3.0;129;false;0.3;Natural;B
+Sanduíche de Frango;7.0;130;0.25;true;Frango grelhado, alface, maionese;C
+Sobremesa;6.5;131;false;1.2;Pudim de Chocolate;S
+P;Pedido de Jantar;2023-08-30T19:45:00;false
+S;Luisa Santos;890.123.456-78;luisa@gmail.com
+Vinho Tinto;10.0;132;true;0.75;Cabernet Sauvignon;B
+Sorvete;4.0;133;false;0.25;Creme;S
+Massa à Carbonara;18.5;134;0.4;false;Massa, bacon, queijo, ovo;C
+P;Pedido de Café da Manhã;2023-08-31T09:00:00;true
+S;Mateus Silva;901.234.567-89;mateus@yahoo.com
+Café;2.0;135;true;0.2;Café Espresso;B
+Pão de Queijo;2.0;136;false;0.15;Tradicional;S
+Sanduíche de Presunto e Queijo;6.0;137;0.3;true;Presunto, queijo, alface;C
+P;Pedido Especial;2023-09-01T14:30:00;false
+S;Isabela Pereira;123.456.789-10;isabela@gmail.com
+Refrigerante;3.5;138;false;0.33;Fanta Laranja;B
+Bolo de Morango;15.0;139;false;1.5;Bolo de morango fresco;S
+Salada de Legumes;7.0;140;1.2;false;Salada saudável de legumes variados;C
+P;Pedido de Almoço;2023-09-02T12:15:00;true
+S;Gustavo Lima;234.567.890-12;gustavo@outlook.com
+Sorvete;3.5;141;false;0.25;Napolitano;B
+Lasanha à Bolonhesa;22.0;142;0.9;false;Lasanha com carne moída e molho de tomate;C
+Café;2.5;143;true;0.2;Café com Leite;B
+P;Pedido de Lanche;2023-09-03T17:00:00;false
+S;Ana Oliveira;345.678.901-23;ana@yahoo.com
+Suco de Maracujá;3.0;144;false;0.3;Natural;B
+Sanduíche de Atum;6.5;145;0.25;true;Atum, maionese, alface;C
+Sobremesa;7.0;146;false;1.0;Pudim de Leite Condensado;S
